@@ -1,0 +1,54 @@
+.wrapper{
+    max-width: 1000px;
+    margin-top: 50px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+circle {
+    animation:  1s linear infinite alternate opac;
+    cursor: pointer;
+}
+
+rect {
+    animation: 5s linear infinite alternate spin;
+    transform-origin: center center; 
+    cursor: pointer;
+}
+
+polygon {
+    animation: 5s linear infinite alternate spin;
+    transform-origin: 600px center; 
+    cursor: pointer;
+}
+
+@keyframes opac {
+    from {opacity: 0.6;}
+    to {opacity: 1;}
+}
+  
+@keyframes spin {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#circle.bigger {
+    r: 100;
+  }
+
+  #rect.pause {
+    animation-play-state: paused !important;
+  }
+  #polygon.reverse {
+    animation-direction: reverse;
+  }

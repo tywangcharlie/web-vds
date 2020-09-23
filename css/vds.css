@@ -1,0 +1,28 @@
+.wrapper{
+    max-width: 1000px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    margin-top: 50px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 800px;
+}
+
+#vds-image {
+    margin-top: 50px;
+    width: 800px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
